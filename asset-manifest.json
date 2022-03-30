@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/test-quanticoders/static/css/main.f820ebed.css",
+    "main.js": "/test-quanticoders/static/js/main.5850e6bc.js",
+    "static/js/787.c1112931.chunk.js": "/test-quanticoders/static/js/787.c1112931.chunk.js",
+    "static/media/privatLogo.svg": "/test-quanticoders/static/media/privatLogo.2b317505653b015d3c52d470f849f89f.svg",
+    "static/media/paypal.svg": "/test-quanticoders/static/media/paypal.0974148631068b58116b059764edca65.svg",
+    "static/media/terminal.svg": "/test-quanticoders/static/media/terminal.b57d53b45114afebec53227775f722a7.svg",
+    "static/media/bank.svg": "/test-quanticoders/static/media/bank.7d16655de462fc15f18da3b372fb0714.svg",
+    "static/media/handSvg.svg": "/test-quanticoders/static/media/handSvg.3c81ac01898928761902187360e8cde5.svg",
+    "static/media/heartSvg.svg": "/test-quanticoders/static/media/heartSvg.d675cf81a018aabd869ee22964d4617e.svg",
+    "static/media/visa.svg": "/test-quanticoders/static/media/visa.9f89dae9b569701db27fa6f54c99a2ee.svg",
+    "static/media/clothesSvg.svg": "/test-quanticoders/static/media/clothesSvg.9f99ca32d332a99862ef8f271ba347d9.svg",
+    "static/media/walletSvg.svg": "/test-quanticoders/static/media/walletSvg.afa78552e1cd3d5f8a8d3e604e11bd6e.svg",
+    "index.html": "/test-quanticoders/index.html",
+    "main.f820ebed.css.map": "/test-quanticoders/static/css/main.f820ebed.css.map",
+    "main.5850e6bc.js.map": "/test-quanticoders/static/js/main.5850e6bc.js.map",
+    "787.c1112931.chunk.js.map": "/test-quanticoders/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f820ebed.css",
+    "static/js/main.5850e6bc.js"
+  ]
+}
