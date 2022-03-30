@@ -1,0 +1,25 @@
+.formInput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+
+  input {
+    background: #f3f7fa;
+    border: none;
+    padding: 15px;
+    border-radius: 6px;
+    width: 100%;
+    transition: .2s;
+    &:focus {
+      background: #e1effa;
+    }
+  }
+  label {
+    margin-bottom: 5px;
+  }
+}
+
+input.error{
+  background: rgba(red, .2);
+}
+

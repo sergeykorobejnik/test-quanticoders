@@ -1,0 +1,90 @@
+.helpFormHolder {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.fromContent {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: column;
+  label {
+    font-size: 14px;
+    @media only screen and (min-width: 1280px) {
+      font-size: 16px;
+    }
+  }
+
+  @media only screen and (min-width: 1280px) {
+    flex-direction: row;
+  }
+
+}
+.col {
+  flex-shrink: 0;
+  padding: 10px;
+  @media only screen and (min-width: 1280px) {
+    width: 40%;
+    padding: 0;
+  }
+}
+.bankInfo {
+  display: flex;
+  flex-direction: column;
+}
+.doubledInput {
+  display: flex;
+  flex-grow: 1;
+
+  div + div {
+    width: calc(50% - 15px);
+    margin-left: 10px;
+    @media only screen and (min-width: 1280px) {
+      width: calc(50% - 15px);
+    }
+  }
+  & > div {
+    width: 50%;
+  }
+  input {
+    width: 100%;
+  }
+
+}
+h1 {
+  color: #363b5d;
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.switch {
+  border: 1px solid #363b5d;
+  border-radius: 4px;
+  margin-bottom: 50px;
+}
+
+.switchBtn {
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 15px;
+  font-weight: 700;
+  font-size: 12px;
+  white-space: nowrap;
+  background: #363b5d;
+  border-radius: 4px 0 0 4px;
+  transition: .3s ease-in-out;
+}
+.switchBtn + .switchBtn {
+  border-radius: 0 4px 4px 0;
+}
+.switchBtnActive {
+  background: #fff;
+  color: #363b5d;
+}
+

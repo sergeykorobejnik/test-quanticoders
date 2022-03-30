@@ -1,0 +1,47 @@
+.paymentCard {
+  background: #c5d5e6;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.paymentRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  span {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #ffffff;
+    margin-left: 0;
+    @media only screen and (min-width: 1280px) {
+      margin-left: 10px;
+    }
+  }
+  span + input {
+    margin-left: 0;
+  }
+  input {
+    width: calc(25% - 10px);
+    margin-left: 10px;
+    padding: 15px 10px;
+    border-radius: 6px;
+    border: none;
+  }
+
+}
+.paymentRowCvv {
+  justify-content: space-between;
+  align-items: center;
+  input {
+    width: 100%;
+  }
+  div {
+    width: calc(50% - 10px);
+  }
+}
+
+input.error{
+  background: #ffcccc;
+}
